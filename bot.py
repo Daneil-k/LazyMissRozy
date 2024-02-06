@@ -138,9 +138,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
-                        [
-                            InlineKeyboardButton("", url="")
-                        ]]))
+                        ]))
             
         else:
             try:
@@ -418,9 +416,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
-                        [
-                            InlineKeyboardButton("", url="")
-                        ]
+                        
                     ]
                 )
             )
@@ -438,9 +434,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
-                        [
-                            InlineKeyboardButton("", url="")
-                        ]
+                        
                     ]
                 )
             )
