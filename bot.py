@@ -123,6 +123,9 @@ async def Lazy_start():
                         [
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
+                        ],
+                        [
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
                         ]]))
             else :
                 await cmd.reply_photo(photo=lazy_pic,
@@ -136,6 +139,9 @@ async def Lazy_start():
                         [
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
+                        ],
+                        [
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
                         ]]))
             
         else:
@@ -177,7 +183,7 @@ async def Lazy_start():
                     return
 
             if message.from_user.id in Config.BANNED_USERS:
-                await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/LazyDeveloperSupport)",
+                await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/Contactadowbot)",
                                         disable_web_page_preview=True)
                 return
 
@@ -413,6 +419,9 @@ async def Lazy_start():
                         [
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
+                        ],
+                        [
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
                         ]
                     ]
                 )
@@ -430,6 +439,9 @@ async def Lazy_start():
                         [
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
+                        ],
+                        [
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
                         ]
                     ]
                 )
@@ -445,7 +457,7 @@ async def Lazy_start():
                     user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                     if user.status == "kicked":
                         await cmd.message.edit(
-                            text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/Contactadowbot).",
+                            text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support](https://t.me/Contactadowbot).",
                             disable_web_page_preview=True
                         )
                         return
@@ -485,6 +497,9 @@ async def Lazy_start():
                         [
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
+                        ],
+                        [
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
                         ]
                     ]
                 )
@@ -502,6 +517,9 @@ async def Lazy_start():
                         [
                             InlineKeyboardButton("Aʙᴏᴜᴛ Bᴏᴛ", callback_data="aboutbot"),
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
+                        ],
+                        [
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
                         ]
                     ]
                 )
