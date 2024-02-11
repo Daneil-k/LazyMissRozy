@@ -125,7 +125,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/Contactadowbot")
                         ]]))
             else :
                 await cmd.reply_photo(photo=lazy_pic,
@@ -141,7 +141,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/Contactadowbot")
                         ]]))
             
         else:
@@ -421,7 +421,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/Contactadowbot")
                         ]
                     ]
                 )
@@ -441,7 +441,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/Contactadowbot")
                         ]
                     ]
                 )
@@ -499,7 +499,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/Contactadowbot")
                         ]
                     ]
                 )
@@ -519,7 +519,7 @@ async def Lazy_start():
                             InlineKeyboardButton("Aʙᴏᴜᴛ DEV", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/Contactadowbot")
                         ]
                     ]
                 )
