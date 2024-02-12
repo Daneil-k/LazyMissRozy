@@ -214,7 +214,7 @@ async def Lazy_start():
                 share_link = f"https://t.me/{Config.BOT_USERNAME}?start=LazyDeveloperr_{str_to_b64(file_er_id)}"
                 CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
-                                                                "GΞΓ SHAЯeABLΞ LIИҜ", url=share_link)]]))
+                                                                "ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ", url=share_link)]]))
                 if message.chat.username:
                     await forwarded_msg.reply_text(
                         f"#CHANNEL_BUTTON:\n\n[{message.chat.title}](https://t.me/{message.chat.username}/{CH_edit.id}) Channel's Broadcasted File's Button Added!")
