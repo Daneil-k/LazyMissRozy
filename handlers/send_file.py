@@ -43,7 +43,8 @@ async def media_forward(bot: Client, user_id: int, file_id: int):
                                                         InlineKeyboardButton('sᴛʀᴇᴀᴍ ᴏɴʟɪɴᴇ', url=lazy_stream)]])  # web stream Link
                 )
                 return await bot.copy_message(chat_id=user_id, from_chat_id=Config.DB_CHANNEL,
-                                          message_id=file_id, 
+                                          message_id=file_id,
+                                          protect_content=True,
                                           reply_markup=InlineKeyboardMarkup(
                                             [
                                                 [
@@ -67,6 +68,7 @@ async def media_forward(bot: Client, user_id: int, file_id: int):
             )
             return await bot.forward_messages(chat_id=user_id, from_chat_id=Config.DB_CHANNEL,
                                               message_ids=file_id,
+                                              protect_content=True,
                                               reply_markup=InlineKeyboardMarkup(
                                             [
                                                 [
@@ -85,4 +87,3 @@ async def send_media_and_reply(bot: Client, user_id: int, file_id: int):
     sent_message = await media_forward(bot, user_id, file_id)
     await reply_forward(message=sent_message, file_id=file_id)
     await asyncio.sleep(2)
-
