@@ -51,12 +51,12 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=LazyDeveloperr_{str_to_b64(str(SaveMessage.id))}"
         await editable.edit(
-            f"**𝘉𝘢𝘵𝘤𝘩 𝘍𝘪𝘭𝘦𝘴 𝘚𝘵𝘰𝘳𝘦𝘥 𝘪𝘯 𝘮𝘺 𝘋𝘢𝘵𝘢𝘣𝘢𝘴𝘦!**\n\n𝙃𝙚𝙧𝙚 𝙞𝙨 𝙩𝙝𝙚 𝙋𝙚𝙧𝙢𝙖𝙣𝙚𝙣𝙩 𝙇𝙞𝙣𝙠 𝙤𝙛 𝙮𝙤𝙪𝙧 𝙛𝙞𝙡𝙚𝙨: {share_link} \n\n"
+            f"**𝘉𝘢𝘵𝘤𝘩 𝘍𝘪𝘭𝘦𝘴 𝘚𝘵𝘰𝘳𝘦𝘥 𝘪𝘯 𝘮𝘺 𝘋𝘢𝘵𝘢𝘣𝘢𝘴𝘦!**\n\nʜᴇʀᴇ ɪs ᴛʜᴇ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴏғ ʏᴏᴜʀ ғɪʟᴇ: {share_link} \n\n"
             f"𝘑𝘶𝘴𝘵 𝘊𝘭𝘪𝘤𝘬 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬 𝘵𝘰 𝘨𝘦𝘵 𝘺𝘰𝘶𝘳 𝘧𝘪𝘭𝘦𝘴!",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⚡️ Open Link ⚡️", url=share_link)],
-                 [InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper"),
-                  InlineKeyboardButton("🍿supp⊕rt gr⊕up", url="https://t.me/LazyDeveloperSupport")]]
+                [[InlineKeyboardButton("ᴏᴘᴇɴ ʟɪɴᴋ", url=share_link)],
+                 [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/Tamil_Rockersmovies"),
+                  InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/+-Jd-Wky6fjxmMWMx")]]
             ),
             disable_web_page_preview=True
         )
@@ -86,14 +86,14 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             lazy_dev = f"+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/LazyDeveloper'>⎝⎝✧ʟᴀᴢʏᴅᴇᴠᴇʟᴏᴘᴇʀ✧⎠⎠</a>"
             lazypost_custom_template = f"{(Config.LP_CUSTOM_TEMPLATE)}\n\n{lazy_dev} ♥️"
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⎝⎝✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧⎠⎠", url=share_link)],
-                 [InlineKeyboardButton("⚡️✧ ɢᴇᴛ ʙᴀᴛᴄʜ ꜰɪʟᴇꜱ ✧⚡️", url=share_link)],
+                [[InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ", url=share_link)],
+                 [InlineKeyboardButton("ɢᴇᴛ ʙᴀᴛᴄʜ ꜰɪʟᴇꜱ", url=share_link)],
                 ]
             )
             main_btn=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⎝⎝✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧⎠⎠", url=share_link)],
-                 [InlineKeyboardButton("⚡️✧ ɢᴇᴛ ʙᴀᴛᴄʜ ꜰɪʟᴇꜱ ✧⚡️", url=share_link)],
-                 [InlineKeyboardButton("•⊹٭𝚓𝚘𝚒𝚗 𝚖𝚊𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕٭⊹•", url=main_btn_link)]
+                [[InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ", url=share_link)],
+                 [InlineKeyboardButton("ɢᴇᴛ ʙᴀᴛᴄʜ ꜰɪʟᴇꜱ", url=share_link)],
+                 [InlineKeyboardButton("𝚓𝚘𝚒𝚗 𝚖𝚊𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕", url=main_btn_link)]
                 ]
             )
             # ✧ Here is the condition for sending POST in movie channel
@@ -147,9 +147,9 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             f"𝙃𝙚𝙧𝙚 𝙞𝙨 𝙩𝙝𝙚 𝙋𝙚𝙧𝙢𝙖𝙣𝙚𝙣𝙩 𝙇𝙞𝙣𝙠 𝙤𝙛 𝙮𝙤𝙪𝙧 𝙛𝙞𝙡𝙚: {share_link}  \n\n"
             f"𝘑𝘶𝘴𝘵 𝘊𝘭𝘪𝘤𝘬 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬 𝘵𝘰 𝘨𝘦𝘵 𝘺𝘰𝘶𝘳 𝘧𝘪𝘭𝘦...",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⚡️ Open Link ⚡️", url=share_link)],
-                 [InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper"),
-                  InlineKeyboardButton("🍿supp⊕rt gr⊕up", url="https://t.me/LazyDeveloperSupport")]]
+                [[InlineKeyboardButton("ᴏᴘᴇɴ ʟɪɴᴋ", url=share_link)],
+                 [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/Tamil_Rockersmovies"),
+                  InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/+-Jd-Wky6fjxmMWMx")]]
             ),
             disable_web_page_preview=True
         )
@@ -173,14 +173,14 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             lazy_dev = f"+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/LazyDeveloper'>⎝⎝✧ʟᴀᴢʏᴅᴇᴠᴇʟᴏᴘᴇʀ✧⎠⎠</a>"
             lazypost_custom_template = f"{(Config.LP_CUSTOM_TEMPLATE)}\n\n{lazy_dev} ♥️"
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⎝⎝✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧⎠⎠", url=share_link)],
-                 [InlineKeyboardButton("ミ★ GΞΓ FILΞ ★彡", url=share_link)],
+                [[InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ", url=share_link)],
+                 [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=share_link)],
                 ]
             )
             main_btn=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⎝⎝✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧⎠⎠", url=share_link)],
-                 [InlineKeyboardButton("ミ★ GΞΓ FILΞ ★彡", url=share_link)],
-                 [InlineKeyboardButton("•⊹٭𝚓𝚘𝚒𝚗 𝚖𝚊𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕٭⊹•", url=main_btn_link)]
+                [[InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ", url=share_link)],
+                 [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=share_link)],
+                 [InlineKeyboardButton("𝚓𝚘𝚒𝚗 𝚖𝚊𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕", url=main_btn_link)]
                 ]
             )
             # ✧ Here is the condition for sending POST in movie channel ✧ LazyDeveloper ✧
